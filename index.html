@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Магазин гвинтокрилів
+		</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">
+		<div class="cursor">
+		</div>
+		<script>
+			let cursor = document.querySelector(".cursor");
+			document.addEventListener("mousemove", (evt) => {
+			cursor.style.top = evt.pageY + "px";
+			cursor.style.left = evt.pageX + "px";
+			});
+		</script>
+		<div style="width:100%">
+			<nav style="background-color: chartreuse; text-align: center;">
+				<h1 style="margin: 0px;">Магазин гвинтокрилів "У Івана"</h1>
+			</nav>	
+			<aside style="width:20%; height: 500px;	float: left; background-color: darkkhaki; margin: 0%;" class="menu">
+					<ol class="heli_list"> Варіанти техніки:
+						<li><a href="MI24.html" >Ударний гвинтокрил МІ-24</a></li>
+						<li><a href="MI8.html">Ударний гвинтокрил МІ-8</a></li>
+						<li><a href="MI17.html">Ударний гвинтокрил МІ-17</a></li>
+					</ol>	
+			</aside>
+			<section style="width:80%; height: 500px; float: left; background-color: rgb(27, 117, 49); color: whitesmoke;" class="infotable">
+					<p class="about_heli" style="margin-left: 1% ;">
+						Гелікоптéр(фр. hélicoptère — від грец. ἕλιξ, гелікс, род. відм. ἕλικος, гелікос — «гвинтова лінія» + грец. πτερόν, птерон — «крило»), 
+						вертолі́т — літальний апарат, важчий за повітря. Зліт гелікоптера, тримання його на певній висоті (зависання) і переміщення в повітрі, забезпечується тримальним гвинтом, 
+						що обертається в горизонтальній площині. Переміщення машини, забезпечується нахилом у відповідному напрямку, головного тримального гвинта.
+						Оскільки гвинт, обертаючись, створює значний крутний момент, цей реактивний момент треба зрівноважувати, щоби корпус гелікоптера не почав обертатися в протилежний бік.
+						Переважно, використовується два способи зрівноваження обертального моменту: два горизонтальні співвісні гвинти однакового розміру, які обертаються у протилежних напрямках, 
+						та схема, де обертальний момент великого горизонтального тримального гвинта врівноважується меншим кермовим, вертикально розміщеним, 
+						повітряним гвинтом або струменевою системою керування типу NOTAR.</p>
+
+			</section>
+		</div>
+	</body>
+</html>
